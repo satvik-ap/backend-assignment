@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
     } else if (req.url === '/projects') {
         res.end(`<h1>Projects</h1>${nav}<p>QuizBlast.Co, InboxIQ, MathBlaze, Axon AI, Axon EV, and my Personal Portfolio.</p>`);
     } else if (req.url === '/contact') {
-        res.end(`<h1>Contact Details</h1>${nav}<p>Email: yashtambade56@gmail.com</p>`);
+        res.end(`<h1>Contact Details</h1>${nav}<p>Email: satvik@gmail.com</p>`);
     } else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
         res.end('404 - Page Not Found');
