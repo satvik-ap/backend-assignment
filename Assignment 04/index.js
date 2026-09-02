@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const initialContent = `Name: Yash Tambade
+const initialContent = `Name: Satvik ap
 Course: Full Stack Web Dev.
 Technology: HTML, CSS, JavaScript, Node.js`;
 
