@@ -38,7 +38,7 @@ app.get('/product/:id/:category', (req, res) => {
 });
 
 app.get('/search', (req, res) => {
-    const name = req.query.name || 'Samay';
+    const name = req.query.name || 'Satvik';
     const role = req.query.role || 'developer';
     res.send(`Name: ${name}, Role: ${role}`);
 });
