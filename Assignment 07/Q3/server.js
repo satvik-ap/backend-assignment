@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 
-app.get("/profile/:id", (req, res) => {
+app.get("/student/:id", (req, res) => {
 
     const id = req.params.id;
     const name = req.query.name;
