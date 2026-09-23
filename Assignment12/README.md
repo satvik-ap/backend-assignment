@@ -87,9 +87,9 @@ npm test
 - **Body**:
   ```json
   {
-    "name": "Ankit",
-    "email": "Ankit@gmail.com",
-    "password": "Ankit@123"
+    "name": "satvik",
+    "email": "satvik@gmail.com",
+    "password": "satvik@123"
   }
   ```
 - **Success Response (201 Created)**:
@@ -111,7 +111,7 @@ npm test
 - **Body**:
   ```json
   {
-    "email": "ankit@gmail.com",
+    "email": "satvik@gmail.com",
     "password": "Rahul@123"
   }
   ```
@@ -138,7 +138,7 @@ npm test
     "message": "Welcome to your private profile",
     "user": {
       "id": "65fc1234567890abcdef1234",
-      "email": "Ankit@gmail.com"
+      "email": "satvik@gmail.com"
     }
   }
   ```
